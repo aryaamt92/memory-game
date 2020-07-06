@@ -1,0 +1,40 @@
+body {
+  margin: 0rem;
+  background-color: #111d5e;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #f7fbe1;
+  font-weight: 900;
+  text-shadow: 5px 3px #d4b5b0;
+  letter-spacing: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+p {
+  margin-top: 6rem;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+#game-container {
+  padding: 5rem;
+}
+
+.block {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  margin: 0.5rem;
+  border: solid 10px #000;
+  border-radius: 10%;
+  transition: transform 0.1s;
+}
+
+.pressed {
+  transform: scale(1.05);
+  box-shadow: 0rem 0rem 0.4rem white;
+}
